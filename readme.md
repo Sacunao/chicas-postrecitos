@@ -40,3 +40,8 @@ Referencia Tres:https://plustv.pe/shows/dulces-secretos/
 ##6. WIREFRAMES
 
 
+
+##APLICANDO EVENTOS
+
+###
+
