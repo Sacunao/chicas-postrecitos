@@ -4,9 +4,9 @@
 
 Antecedentes:
 
-En la Actualidad Perú es un país conn gran reconocimiento gastronómico y con un público grande interesado en el rubro, si hablamos de postres este también es parte de ese boomm, sin embargo hay dos públicos que tienen una oferta mus escasa, que es el caso de los veganos y los celiacos. 
+En la Actualidad Perú es un país con gran reconocimiento gastronómico y con un público grande interesado en el rubro, si hablamos de postres este también es parte de ese boomm, sin embargo hay dos públicos que tienen una oferta muy escasa, que es el caso de los veganos y los celiacos. 
 
-Por eso, queremos crear una página que conserve la tradición de los ducles clásicos, pero también de opciones para esos dos nuevos segmentos.
+Por eso, queremos crear una página que conserve la tradición de los dulces clásicos, pero también de opciones para esos dos nuevos segmentos.
 
 ##1. OBJETIVO
 Ser un blog de consulta de recetas inclusivo que predomine en las búsquedas tanto de postres clásicos, como para veganos y celiacos.

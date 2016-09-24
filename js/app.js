@@ -39,8 +39,8 @@ function myFunction() {
     }
 }
 function bigImg(element) {
-    element.style.width = "368px";
-    element.style.height = "272px";
+    element.style.width = "300px";
+    element.style.height = "250px";
 }
 function normalImg(element) {
     element.style.width = "240px";
