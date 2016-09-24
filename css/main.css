@@ -1,0 +1,204 @@
+/*------Utiilities------*/
+.d-none{
+	display: none;
+}
+.b-parraf {
+	font-size: 1.3em;
+}
+.d-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.p-left{
+	padding-left: 1em;
+}
+.text-white{
+	color: #FFFFFF;
+}
+.text-black{
+	font-weight: 600;
+}
+.text-italic{
+	font-style: italic;
+}
+.text-celeste{
+	color: #3D0D0D;
+	font-weight: 600;
+}
+.text-center{
+	text-align: center;
+}
+.m-top{
+	margin-top: 1em;
+}
+.espacio{
+	padding-bottom: 5%;
+}
+.n-padding-r-l{
+	padding-right: 0;
+	padding-left: 0;
+}
+.bold{
+	font-weight: bold;
+}
+.pd-l{
+	padding-left: 3%;
+}
+/* -----HEADER--------*/
+#bg-imagenheader {
+	background: url(../image/large.jpg) no-repeat;
+	background-size: 100%;
+	background-size: cover;
+
+}
+.hero {
+	background-color: rgba(93,101,107,0.10);
+}
+.logo img{
+	width: 70%;
+}
+header .navbar{
+	background-color: transparent;
+	border: none;
+	padding: 0.3%;
+}
+.navbar #bs-example-navbar-collapse-1 .list{
+	color: #FFFFFF;
+	font-size: 1.3em;
+}
+.navbar #bs-example-navbar-collapse-1 .list:hover{
+	background-color: #00FF00;
+}
+.title {
+	color: white;
+	font-size: 4em;
+	font-weight: 500;
+	padding: 10% 10% 2% 10%;
+}
+.test-free {
+	color: white;
+	padding: 3% 0;
+}
+.hero-content{
+	padding: 10% 0%;
+}
+.button{
+	background-color: #00FF00;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-size: 2em;
+	padding: 2% 3%;
+	margin: 5% 0%;
+}
+.button:hover{
+	background-color: #3D0D0D;
+}
+/*---------NOSOTROS----------*/
+#nosotros{
+	margin-top: 1.5em;
+}
+.p-nosotros{
+	font-size: 25px;
+	padding: 1em;
+
+}
+/*--------SERVICIOS----------*/
+.servicios{
+	padding: 3em 0px;
+}
+.icon-serv{
+	width: 15em;
+	height: 12em;
+    border-radius: 13%;
+    border: none;
+}
+.icon{
+	font-size: 3em;
+	font-weight: 600;
+}
+.tipos-servicios{
+	padding: 10% 15%;
+}
+
+/*--------EJEMPLOS----------*/
+.recetasContent{
+	padding: 1em;
+	margin: 1em 0px;
+	font-size: 1.5em;
+}
+select{
+	width: 10em;
+	border-radius: 5px;
+	background-color: #3D0D0D;
+	color: white;
+}
+.receta{
+	padding: 0.5em 0.5em;
+	background: #00FF00;
+	border-radius: 5px;
+	margin: 10px;
+
+}
+
+/*--------FOOTER----------*/
+footer{
+	background-color: #3D0D0D;
+}
+
+.text-footer{;
+	padding: 2% 0%;
+}
+.redescontact{
+	text-align: right;
+}
+.redes{
+	font-size: 2.5em;
+	margin: 2%;
+	display: inline-block;
+}
+.redes:hover{
+	color: #FFFFFF;
+	transition: all 0.8s ease;
+}
+/*--------LETRAS RESPON0IVE----------*/
+
+@media (max-width: 1024px){
+	body{
+	font-size: 16px;
+	}
+	.noneicon{
+		display: none;
+	}
+}
+@media (max-width: 982px){
+	body{
+	font-size: 14px;
+	}
+}
+@media (max-width: 768px){
+	body{
+	font-size: 14px;
+	}
+}
+
+@media (max-width: 640px){
+	body{
+	font-size: 12px;
+	}
+	.title {
+	font-size: 2.5em;
+	}
+	.none{
+		display: none;
+	}
+	footer{
+		text-align: center;
+	}
+	.redescontact{
+		text-align: center;
+	}
+	.middle{
+		text-align: center;
+	}
+}
