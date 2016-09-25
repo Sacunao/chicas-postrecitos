@@ -9,9 +9,10 @@ En la Actualidad Perú es un país con gran reconocimiento gastronómico y con u
 Por eso, queremos crear una página que conserve la tradición de los dulces clásicos, pero también de opciones para esos dos nuevos segmentos.
 
 ##1. OBJETIVO
+
 Ser un blog de consulta de recetas inclusivo que predomine en las búsquedas tanto de postres clásicos, como para veganos y celiacos.
 
-Fuente: 
+Fuentes
 Celiacos: http://bit.ly/2cv952R
 Veganos: http://bit.ly/1Vr9cg4
 
@@ -43,8 +44,6 @@ Referencia Dos: http://www.capriccio.com.pe/
 Referencia Tres:http://www.elrincondelospostres.com/
 Referencia Cuatro: http://www.directoalpaladar.com/
 
-
-
 ##APLICANDO EVENTOS
 
 ###EVENTO MOUSEOVER Y MOUSEOUT / TOUCHSTAR Y TOUCHEND
@@ -52,9 +51,8 @@ Referencia Cuatro: http://www.directoalpaladar.com/
 Utilizamos los eventos de mouseover y mouseout para dar un efecto a las imágenes, en este caso lucirá como si se tuviéra un efecto hover con la propiedad de transición, pero en esta ocasión es aplicada a través de funciones en Javascript. El touchstar y touchend cumplen la misma función solo que se usa en especifico para las acciones de deslizamiento táctil en las pantallas.
 
 ```javascript
-
-	var icono = document.getElementsByClassName("icon-serv");
-	//Para web
+    var icono = document.getElementsByClassName("icon-serv");
+    //Para web
     for(var i = 0; i < icono.length; i++){
         icono[i] .addEventListener("mouseover",function(){
             bigImg(this);
@@ -79,18 +77,15 @@ Utilizamos los eventos de mouseover y mouseout para dar un efecto a las imágene
             normalImg(this);
         });
     }
-
-
     function bigImg(element) {
-	    element.style.width = "280px";
-	    element.style.height = "210px";
-	}
-	function normalImg(element) {
-	    element.style.width = "240px";
-	    element.style.height = "191px";
-	}
+        element.style.width = "280px";
+        element.style.height = "210px";
+    }
+    function normalImg(element) {
+        element.style.width = "240px";
+        element.style.height = "191px";
+    }
 ```
-
 Antes 
 
 ![Imagen](http://2.1m.yt/SfWqH_x.png "Imagen")
@@ -99,18 +94,15 @@ Con Efecto
 
 ![Imagen](http://2.1m.yt/a6Pd109.png "Imagen")
 
-
-
 ###EVENTO CHANGE
 
 Utilizamos el evento change en el select, acompañado de una función condicional permitirá que el contenido oculta aparezca según el valor evaluado.
 
 ```javascript
-	var select = document.getElementById("mySelect")
+    var select = document.getElementById("mySelect")
     select.addEventListener("change",function(){
         myFunction();
     });
-
     function myFunction() {
     var x = document.getElementById("mySelect").value;
     if(x == "null"){
@@ -131,13 +123,18 @@ Utilizamos el evento change en el select, acompañado de una función condiciona
         document.getElementById("dos").style.display = "none";
     }
 }
-
 ```
 Antes:
+
 ![Imagen](http://1.1m.yt/jCUqZgf.png "Imagen")
 
 Después: 
+
 ![Imagen](http://1.1m.yt/niIEe13.png "Imagen")
+
+###EVENTO FOCUS / BLUR
+
+Aplicamos este evento en nuestro formulario de únete, ya que en específico este tipo de evento afecta a elementos del form.
 
 
 
