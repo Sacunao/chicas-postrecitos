@@ -104,9 +104,12 @@ header .navbar{
 	font-size: 2em;
 	padding: 2% 3%;
 	margin: 5% 0%;
+	color: white;
 }
 .button:hover{
 	background-color: #3D0D0D;
+	color: white;
+	text-decoration:none;
 }
 /*---------NOSOTROS----------*/
 #nosotros{
@@ -116,7 +119,24 @@ header .navbar{
 	font-size: 25px;
 	padding: 1em;
 }
-
+/*-------Ingredientes-----*/
+.titlePostre{
+	color: #3D0D0D;
+	font-size: 3em;
+	font-weight: bold;
+	font-family: 'Farsan', cursive;
+}
+.ingredientes{
+	margin-left: 1em;
+}
+.titleIngredientes{
+	color: #3D0D0D;
+	font-weight: bold;
+	font-family: 'Farsan', cursive;
+}
+.preparacion{
+	text-align: justify;
+}
 /*-------Extra-----*/
 
 .informacion-extra{
@@ -229,6 +249,10 @@ footer{
 .button-form{
 	width: 100%;
 	font-size: 1.5em;
+}
+
+.info-contact{
+	padding-left: 5.5em;
 }
 
 /*--------LETRAS RESPON0IVE----------*/

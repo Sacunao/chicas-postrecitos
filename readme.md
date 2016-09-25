@@ -3,6 +3,7 @@
 ##PLANEACIÓN DE PROYECTO
 
 Antecedentes:
+
 En la Actualidad Perú es un país con gran reconocimiento gastronómico y con un público grande interesado en el rubro, si hablamos de postres este también es parte de ese boomm, sin embargo hay dos públicos que tienen una oferta muy escasa, que es el caso de los veganos y los celiacos. 
 Por eso, queremos crear una página que conserve la tradición de los dulces clásicos, pero también de opciones para esos dos nuevos segmentos.
 
@@ -154,4 +155,35 @@ Antes
 Después
 
 ![Imagen](http://3.1m.yt/sIFgRLE.png "Imagen")
+
+###EVENTO CLICK
+
+Para la página utilizamos dos veces este evento, en el formulario para que al llenarlo te devuelva un alert de haber llenado por ocmpleto el formulario y en el caso de las recetas, ya habiamos logrado con el evento onchage que aparezcan divs ocultos con las caterogías de recetas, el reto de esta version era hacer que cada una de esas opciones te devuelva una receta completa.
+
+```javascript
+    var arroz = document.getElementById("arrozLeche");
+    arroz.addEventListener("click",function(){
+    postreArroz();
+
+    function postrenone(){
+    document.getElementById("arrozContent").style.display = "none";
+    document.getElementById("chifonContent").style.display = "none";
+    document.getElementById("panuelitoContent").style.display = "none";
+    document.getElementById("heladoContent").style.display = "none";
+    document.getElementById("galletasContent").style.display = "none";
+    document.getElementById("tartaContent").style.display = "none";
+    document.getElementById("cocoContent").style.display = "none";
+    document.getElementById("natillaContent").style.display = "none";
+    document.getElementById("suspiroContent").style.display = "none";  
+}     
+```
+Antes
+
+![Imagen](http://3.1m.yt/CA5_ow_.png "Imagen")
+
+Después
+
+![Imagen](http://4.1m.yt/piKlMQW.png "Imagen")
+
+
 

@@ -1,5 +1,4 @@
 /*Para que la barra de navegación sea dinámica*/
-
 $(document).ready(function(){       
    var scroll_start = 0;
    var startchange = $("#startchange");
