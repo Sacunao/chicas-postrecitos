@@ -3,15 +3,29 @@ window.addEventListener("load",function(){
     select.addEventListener("change",function(){
         myFunction();
     });
-    
+    //Para web
     var icono = document.getElementsByClassName("icon-serv");
     for(var i = 0; i < icono.length; i++){
         icono[i] .addEventListener("mouseover",function(){
             bigImg(this);
         });
     }
+    //Para táctil
     for(var i = 0; i < icono.length; i++){
-        icono[i].addEventListener("mouseout",function(){
+        icono[i].addEventListener("touchstar",function(){
+            normalImg(this);
+        });
+    }
+    //Para web
+    var icono = document.getElementsByClassName("icon-serv");
+    for(var i = 0; i < icono.length; i++){
+        icono[i] .addEventListener("mouseover",function(){
+            bigImg(this);
+        });
+    }
+    //Para táctil
+    for(var i = 0; i < icono.length; i++){
+        icono[i].addEventListener("touchend",function(){
             normalImg(this);
         });
     }
@@ -39,8 +53,8 @@ function myFunction() {
     }
 }
 function bigImg(element) {
-    element.style.width = "300px";
-    element.style.height = "250px";
+    element.style.width = "280px";
+    element.style.height = "210px";
 }
 function normalImg(element) {
     element.style.width = "240px";
