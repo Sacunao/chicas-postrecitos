@@ -13,14 +13,14 @@ window.addEventListener("load",function(){
     //Para táctil
     for(var i = 0; i < icono.length; i++){
         icono[i].addEventListener("touchstar",function(){
-            normalImg(this);
+            bigImg(this);
         });
     }
     //Para web
     var icono = document.getElementsByClassName("icon-serv");
     for(var i = 0; i < icono.length; i++){
-        icono[i] .addEventListener("mouseover",function(){
-            bigImg(this);
+        icono[i] .addEventListener("mouseout",function(){
+            normalImg(this);
         });
     }
     //Para táctil
@@ -51,13 +51,15 @@ window.addEventListener("load",function(){
         for(var i = 0; i < formulario.length; i++){
           formulario[i].value = "";
         }
+        //focus al input
+        for(var i = 0; i < formulario.length; i++){
+            formulario[i].focus();
+        }
     });
 
-//focus al input
 
-    for(var i = 0; i < formulario.length; i++){
-      formulario[i].focus();
-    }
+
+    
 });
 
 function myFunction() {

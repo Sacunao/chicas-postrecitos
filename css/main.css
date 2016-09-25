@@ -151,7 +151,9 @@ header .navbar{
 .tipos-servicios{
 	padding: 10% 15%;
 }
-
+.text-serv{
+	font-size: 1.2em;
+}
 
 
 /*--------EJEMPLOS----------*/
