@@ -37,7 +37,24 @@ window.addEventListener("load",function(){
       event.target.style.background = "";    
     }, true);
 
+/*Para cambiar la apariencia de las alertas*/
 
+  var enviar = document.getElementById("enviar");   
+      enviar.addEventListener("click", function(event) {
+      event.preventDefault();
+
+      swal("¡Gracias!", "¡Ya enviaste tus datos!", "success");
+
+//Limpieza de campos del formulario
+      var formulario = document.getElementsByClassName("form-control");
+        for(var i = 0; i < formulario.length; i++){
+          formulario[i].value = "";
+        }
+    });
+
+    for(var i = 0; i < formulario.length; i++){
+      formulario[i].focus();
+    }
 });
 
 function myFunction() {
