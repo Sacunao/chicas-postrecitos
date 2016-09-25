@@ -1,4 +1,12 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+
 /*------Utiilities------*/
+
 .d-none{
 	display: none;
 }
@@ -60,8 +68,9 @@ d-block{
 }
 .logo{
 	color: #FFFFFF;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	font-weight: bold;
+	font-family: 'Farsan', cursive;
 }
 header .navbar{
 	background-color: transparent;
@@ -115,12 +124,13 @@ header .navbar{
 }
 
 .estilo-extra{
-	font-size: 28px;
+	font-size: 3em;
 	color: #FFFFFF;
 	margin: 5%;
 	padding: 3% 5%;
 	text-align: center;
 	font-style: italic;
+	font-family: 'Farsan', cursive;
 }
 
 
