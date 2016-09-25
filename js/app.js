@@ -29,6 +29,14 @@ window.addEventListener("load",function(){
             normalImg(this);
         });
     }
+    var form = document.getElementById("form");
+    form.addEventListener("focus", function(event) {
+      event.target.style.background = "#ff9e9b";    
+    }, true);
+    form.addEventListener("blur", function(event) {
+      event.target.style.background = "";    
+    }, true);
+
 
 });
 
