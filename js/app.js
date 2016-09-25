@@ -39,19 +39,21 @@ window.addEventListener("load",function(){
 
 /*Para cambiar la apariencia de las alertas*/
 
-  var enviar = document.getElementById("enviar");   
-      enviar.addEventListener("click", function(event) {
-      event.preventDefault();
+    var enviar = document.getElementById("enviar");   
+    enviar.addEventListener("click", function(event) {
+        event.preventDefault();
 
-      swal("¡Gracias!", "¡Ya enviaste tus datos!", "success");
+        swal("¡Gracias!", "¡Ya enviaste tus datos!", "success");
 
 //Limpieza de campos del formulario
 
-      var formulario = document.getElementsByClassName("form-control");
+        var formulario = document.getElementsByClassName("form-control");
         for(var i = 0; i < formulario.length; i++){
           formulario[i].value = "";
         }
     });
+
+//focus al input
 
     for(var i = 0; i < formulario.length; i++){
       formulario[i].focus();
