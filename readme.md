@@ -15,6 +15,8 @@ Fuente:
 Celiacos: http://bit.ly/2cv952R
 Veganos: http://bit.ly/1Vr9cg4
 
+![Imagen](http://1.1m.yt/eNbF3E-.png "Imagen")
+
 ##2. USUARIOS
 
 1. Público interesado en dulces.
@@ -22,23 +24,24 @@ Veganos: http://bit.ly/1Vr9cg4
 3. Veganos.
 4. Amas de casa.
 
+##2. WIREFRAMES
+
+El boceto de nuestra página es el siguiente:
+
+![Imagen](http://1.1m.yt/NUEDJ5d.png "Imagen")
+
 ##3. CONTENIDO
 
 Página que almacena recetas.
 Call to Action: Boton Color Verde. Texto: Únete a la comunidad.
+Headline: Se la repostera que quieres ser, nosotros te ayudamos.
 
-Headline: Se la repostera que quieres ser, nosotros te ayudamos
+![Imagen](http://1.1m.yt/9-N8t2.png "Imagen")
 
 Referencia Uno: http://www.cocinandosabores.com/ 
 Referencia Dos: http://www.capriccio.com.pe/
 Referencia Tres:http://www.elrincondelospostres.com/
 Referencia Cuatro: http://www.directoalpaladar.com/
-
-##4. ESTRUCTURA
-
-##5. TECNOLOGÍA
-
-##6. WIREFRAMES
 
 
 
