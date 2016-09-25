@@ -46,6 +46,7 @@ window.addEventListener("load",function(){
       swal("¡Gracias!", "¡Ya enviaste tus datos!", "success");
 
 //Limpieza de campos del formulario
+
       var formulario = document.getElementsByClassName("form-control");
         for(var i = 0; i < formulario.length; i++){
           formulario[i].value = "";

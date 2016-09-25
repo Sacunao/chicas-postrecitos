@@ -16,22 +16,5 @@ $(document).ready(function(){
     }
 });
 
-/*Para cambiar la apariencia de las alertas*/
 
-  var enviar = document.getElementById("enviar");   
-      enviar.addEventListener("click", function(event) {
-      event.preventDefault();
-
-      swal("¡Gracias!", "¡Ya enviaste tus datos!", "success");
-  var formulario = document.getElementsByClassName("form-control");
-    for(var i = 0; i < formulario.length; i++){
-      formulario[i].value = "";
-    }
-  //document.getElementById("form-name").focus();
-
-  
-  });
-    for(var i = 0; i < formulario.length; i++){
-      formulario[i].focus();
-}
 
