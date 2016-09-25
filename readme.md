@@ -39,10 +39,12 @@ Headline: Se la repostera que quieres ser, nosotros te ayudamos.
 ![Imagen](http://1.1m.yt/7V6mwU-.png "Imagen")
 
 Referencia Uno: http://www.cocinandosabores.com/ 
+
 Referencia Dos: http://www.capriccio.com.pe/
+
 Referencia Tres:http://www.elrincondelospostres.com/
+
 Referencia Cuatro: http://www.directoalpaladar.com/
-<<<<<<< HEAD
 
 ##APLICANDO EVENTOS
 
