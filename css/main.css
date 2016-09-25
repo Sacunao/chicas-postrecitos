@@ -2,6 +2,9 @@
 .d-none{
 	display: none;
 }
+d-block{
+	display: block;
+}
 .b-parraf {
 	font-size: 1.3em;
 }
@@ -55,8 +58,10 @@
 .hero {
 	background-color: rgba(93,101,107,0.10);
 }
-.logo img{
-	width: 70%;
+.logo{
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 header .navbar{
 	background-color: transparent;
@@ -137,6 +142,8 @@ header .navbar{
 	padding: 10% 15%;
 }
 
+
+
 /*--------EJEMPLOS----------*/
 .recetasContent{
 	padding: 1em;
@@ -157,11 +164,24 @@ select{
 
 }
 
-/*-------FORMULARIO-------*/
-
-#unete {
-
+.postre-lista {
+    color: #3d0d0d;
+    background: #FFFFFF;
+    padding: 1%;
+    display: block;
+    margin: 6% -8%;
+    text-align: center;
+    border-radius: 5px;
 }
+
+.postre-lista:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+    background: #3d0d0d;
+}
+
+
+/*-------FORMULARIO-------*/
 
 .estilo-form2{
 	background: url(../image/form-dessert.png) no-repeat;
@@ -193,6 +213,12 @@ footer{
 	color: #FFFFFF;
 	transition: all 0.8s ease;
 }
+
+.button-form{
+	width: 100%;
+	font-size: 1.5em;
+}
+
 /*--------LETRAS RESPON0IVE----------*/
 
 @media (max-width: 1024px){
