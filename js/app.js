@@ -42,22 +42,55 @@ window.addEventListener("load",function(){
     var enviar = document.getElementById("enviar");   
     enviar.addEventListener("click", function(event) {
         event.preventDefault();
+        validateForm();
+  });
+});
 
-        swal("¡Gracias!", "¡Ya enviaste tus datos!", "success");
+function validateForm(){
+    var formName = document.getElementById("form-name").value;
+    var formAdress = document.getElementById("form-adress").value;
+    var formMail = document.getElementById("form-mail").value;
+    var formComment = document.getElementById("form-comment").value;
+    
+    swal("¡Gracias!", "¡Ya enviaste tus datos!", "success");
+    limpiezaForm();
 
+    if(formName == "" || formName == null || formName.length == 0) {
+      sweetAlert("Error...", "Escriba un nombre", "error");
+    } else if ( /[0-9]/.test(formName)) {
+      sweetAlert("Error...", "No ingrese números en su nombre.", "error");
+    };
+
+    if(formAdress == "" || formAdress == null || formAdress.length == 0) {
+      sweetAlert("Error...", "Escriba al menos un apellido", "error");
+    } else if ( /[0-9]/.test(formAdress)) {
+      sweetAlert("Error...", "No ingrese números en su apellido.", "error");
+    }; 
+
+    if(formMail == "" || formMail == null || formMail.length == 0) {
+      sweetAlert("Error...", "Escriba un email", "error");
+    } else if ( !/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(formMail)) {
+      sweetAlert("Error...", "Ingrese un email válido", "error");
+    }; 
+
+    if(formComment == "" || formComment == null || formComment.length == 0) {
+      sweetAlert("Error...", "Escriba un comentario, nos importa la razón por la que desea unirse", "error");
+    } else if (formComment.length <= 20) {
+      sweetAlert("Error...", "Escriba un comentario más extenso", "error");
+    };    
+  };
+
+function limpiezaForm() {
 //Limpieza de campos del formulario
-
         var formulario = document.getElementsByClassName("form-control");
         for(var i = 0; i < formulario.length; i++){
           formulario[i].value = "";
-        }
+        };
         //focus al input
         for(var i = 0; i < formulario.length; i++){
             formulario[i].focus();
-        }
-    });
-
-});
+  };
+}
 
 function myFunction() {
     var x = document.getElementById("mySelect").value;

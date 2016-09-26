@@ -56,7 +56,9 @@ d-block{
 .pd-l{
 	padding-left: 3%;
 }
+
 /* -----HEADER--------*/
+
 #bg-imagenheader {
 	background: url(../image/large.jpg) no-repeat;
 	background-size: 100%;
@@ -111,7 +113,9 @@ header .navbar{
 	color: white;
 	text-decoration:none;
 }
+
 /*---------NOSOTROS----------*/
+
 #nosotros{
 	margin-top: 1.5em;
 }
@@ -119,7 +123,9 @@ header .navbar{
 	font-size: 25px;
 	padding: 1em;
 }
+
 /*-------Ingredientes-----*/
+
 .titlePostre{
 	color: #3D0D0D;
 	font-size: 3em;
@@ -137,6 +143,7 @@ header .navbar{
 .preparacion{
 	text-align: justify;
 }
+
 /*-------Extra-----*/
 
 .informacion-extra{
@@ -153,8 +160,8 @@ header .navbar{
 	font-family: 'Farsan', cursive;
 }
 
-
 /*--------SERVICIOS----------*/
+
 .servicios{
 	padding: 3em 0px;
 }
@@ -175,8 +182,8 @@ header .navbar{
 	font-size: 1.2em;
 }
 
-
 /*--------EJEMPLOS----------*/
+
 .recetasContent{
 	padding: 1em;
 	margin: 1em 0px;
@@ -193,9 +200,7 @@ select{
 	background: #00FF00;
 	border-radius: 5px;
 	margin: 10px;
-
 }
-
 .postre-lista {
     color: #3d0d0d;
     background: #FFFFFF;
@@ -205,13 +210,11 @@ select{
     text-align: center;
     border-radius: 5px;
 }
-
 .postre-lista:hover{
 	text-decoration: none;
 	color: #FFFFFF;
     background: #3d0d0d;
 }
-
 
 /*-------FORMULARIO-------*/
 
@@ -219,17 +222,17 @@ select{
 	background: url(../image/form-dessert.png) no-repeat;
 	background-size: cover;
 	height: 500px;
-
 }	
 
 .padd-5{
 	padding: 2% 5% 0% 10%;
 }
+
 /*--------FOOTER----------*/
+
 footer{
 	background-color: #3D0D0D;
 }
-
 .text-footer{;
 	padding: 2% 0%;
 }
@@ -245,12 +248,10 @@ footer{
 	color: #FFFFFF;
 	transition: all 0.8s ease;
 }
-
 .button-form{
 	width: 100%;
 	font-size: 1.5em;
 }
-
 .info-contact{
 	padding-left: 5.5em;
 }
