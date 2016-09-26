@@ -157,10 +157,12 @@ function myFunction() {
         });
     }
 }
+
 function bigImg(element) {
     element.style.width = "280px";
     element.style.height = "210px";
 }
+
 function normalImg(element) {
     element.style.width = "240px";
     element.style.height = "191px";
