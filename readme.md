@@ -1,5 +1,7 @@
 #PROYECTO FINAL DE SPRINT JAVASCRIPT
 
+![Imagen](http://3.1m.yt/i1fGCyz.jpg "Imagen")
+
 ##PLANEACIÓN DE PROYECTO
 
 Antecedentes:
@@ -24,6 +26,8 @@ Veganos: http://bit.ly/1Vr9cg4
 2. Celiacos.
 3. Veganos.
 4. Amas de casa.
+
+![Imagen](http://3.1m.yt/JOEMiPO.jpg "Imagen")
 
 ##2. WIREFRAMES
 

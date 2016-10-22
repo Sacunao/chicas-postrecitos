@@ -120,7 +120,7 @@ header .navbar{
 	margin-top: 1.5em;
 }
 .p-nosotros{
-	font-size: 25px;
+	font-size: 1.8em;
 	padding: 1em;
 }
 
@@ -176,7 +176,7 @@ header .navbar{
 	font-weight: 600;
 }
 .tipos-servicios{
-	padding: 10% 15%;
+	padding: 5em 3em;
 }
 .text-serv{
 	font-size: 1.2em;
@@ -244,23 +244,16 @@ footer{
 	margin: 2%;
 	display: inline-block;
 }
-.redes:hover{
-	color: #FFFFFF;
-	transition: all 0.8s ease;
-}
 .button-form{
 	width: 100%;
 	font-size: 1.5em;
-}
-.info-contact{
-	padding-left: 5.5em;
 }
 
 /*--------LETRAS RESPON0IVE----------*/
 
 @media (max-width: 1024px){
 	body{
-	font-size: 16px;
+		font-size: 16px;
 	}
 	.noneicon{
 		display: none;
@@ -268,21 +261,27 @@ footer{
 }
 @media (max-width: 982px){
 	body{
-	font-size: 14px;
+		font-size: 14px;
+	}
+	.p-nosotros{
+		font-size: 1.3em;
 	}
 }
 @media (max-width: 768px){
 	body{
-	font-size: 14px;
+		font-size: 14px;
 	}
 }
 
 @media (max-width: 640px){
 	body{
-	font-size: 12px;
+		font-size: 12px;
+	}
+	.p-nosotros{
+		font-size: 1.3em;
 	}
 	.title {
-	font-size: 2.5em;
+		font-size: 2.5em;
 	}
 	.none{
 		display: none;
